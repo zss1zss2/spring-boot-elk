@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/emall_api?serverTimezone=GMT&useSSL=false&characterEncoding=utf8
+    username: root
+  jackson:
+    serialization:
+      write_dates_as_timestamps: false
+logging:
+  config: classpath:logback-spring.xml
